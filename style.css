@@ -71,3 +71,22 @@ nav a:hover {
 .hobi li:hover {
     transform: translateY(-5px);
 }
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 95%;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .hero {
+        height: 200px;
+    }
+}

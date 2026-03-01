@@ -1,0 +1,18 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #eee;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
+}

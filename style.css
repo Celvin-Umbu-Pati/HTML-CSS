@@ -28,7 +28,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: salmon;
+    color: blue;
     padding: 5px 10px;
 }
 
@@ -40,8 +40,8 @@ nav a {
 }
 
 nav a:hover {
-    background: salmon;
-    color: white;
+    background: blue;
+    color: burlywood;
     transition: 0.3s;
     transform: scale(1.1);
 }
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .hobi li {
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(45deg, #9e67f1, #f8bbaa);
     padding: 15px;
     text-align: center;
     border-radius: 10px;

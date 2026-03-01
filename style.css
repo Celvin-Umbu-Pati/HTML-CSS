@@ -31,3 +31,17 @@ nav a {
     color: salmon;
     padding: 5px 10px;
 }
+
+.hero {
+    height: 280px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/foto_keluarga.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav a:hover {
+    background: salmon;
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
